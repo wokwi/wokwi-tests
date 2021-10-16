@@ -1,0 +1,7 @@
+wokwi-test SD library
+delay 100
+expect-serial "Initializing SD card...\r\n"
+expect-serial "DIAGRA~1.JSO\r\n"
+expect-serial "SD-LIB~1.INO\r\n"
+expect-serial "WOKWI.WIT\r\n"
+expect-serial "done!\r\n"

@@ -1,0 +1,3 @@
+wokwi-test TinyDebug
+delay 10
+expect-serial "Hello, TinyDebug!\r\n"

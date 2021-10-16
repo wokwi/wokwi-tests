@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega" },
+    { "type": "wokwi-led", "id": "led1" }
+  ],
+  "connections": [
+    ["mega:13", "led1:A", ""],
+    ["mega:GND", "led1:C", ""]
+  ]
+}

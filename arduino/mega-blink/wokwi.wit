@@ -1,0 +1,5 @@
+wokwi-test Arduino Mega Blink
+delay 250
+expect-pin mega:13 HIGH
+delay 500
+expect-pin mega:13 LOW

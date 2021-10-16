@@ -1,0 +1,5 @@
+wokwi-test Blink
+delay 250
+expect-pin uno:13 HIGH
+delay 500
+expect-pin uno:13 LOW

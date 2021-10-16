@@ -1,0 +1,5 @@
+wokwi-test Serial Monitor
+delay 50
+serial-input "Uri\n"
+delay 50
+expect-serial "Hello, Uri!\r\n"
