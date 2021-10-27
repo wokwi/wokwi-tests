@@ -1,0 +1,5 @@
+wokwi-test USB Serial
+delay 50
+serial-input "Uri\n"
+delay 60
+expect-serial "Hello, Uri!\r\n"
