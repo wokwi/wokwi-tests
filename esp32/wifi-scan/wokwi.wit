@@ -1,0 +1,11 @@
+wokwi-test ESP32 WiFi Scan
+delay 400
+expect-serial "Initializing WiFi...Done\r\n"
+delay 60
+expect-serial "Scanning...\r\n"
+delay 2000
+expect-serial "Scan done!\r\n"
+expect-serial "\r\n"
+expect-serial "1 networks found\r\n"
+expect-serial "1: Wokwi-GUEST \r\n"
+expect-serial "\r\n"
