@@ -1,0 +1,5 @@
+wokwi-test Custom chip (counter)
+delay 40
+expect-serial "Chip value: 1\r\n"
+expect-serial "Chip value: 2\r\n"
+expect-serial "Chip value: 3\r\n"

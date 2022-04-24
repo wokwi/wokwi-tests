@@ -1,0 +1,26 @@
+{
+  "name": "I2C Counter",
+  "author": "Uri Shaked",
+  "pins": [
+    "INT",
+    "SCL",
+    "SDA",
+    "GND",
+    "VCC",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "controls": [
+    {
+      "id": "threshold",
+      "label": "LED Threshold",
+      "type": "range",
+      "min": 1,
+      "max": 255,
+      "step": 1
+    }
+  ]
+}

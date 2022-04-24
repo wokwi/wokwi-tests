@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 6.67, "left": 36, "attrs": {} },
+    { "type": "chip-i2c-counter", "id": "chip1", "top": 154.5, "left": 338.53, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 63.67,
+      "left": 350.72,
+      "attrs": { "color": "red" }
+    }
+  ],
+  "connections": [
+    [ "led1:C", "chip1:INT", "blue", [] ],
+    [ "chip1:VCC", "uno:5V", "red", [ "h-7.98", "v41.55", "h-138.19" ] ],
+    [ "chip1:GND", "uno:GND.2", "black", [ "h-12.36", "v43.36", "h-124.08" ] ],
+    [ "chip1:SDA", "uno:A4", "purple", [ "h-18.68", "v45.18", "h-41.85" ] ],
+    [ "chip1:SCL", "uno:A5", "orange", [ "h-25", "v47.96", "h-20.92" ] ],
+    [ "led1:A", "uno:5V", "red", [ "v41.14", "h91.04", "v95.86", "h-287.09" ] ]
+  ]
+}
