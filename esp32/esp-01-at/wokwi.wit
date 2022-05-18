@@ -1,0 +1,16 @@
+wokwi-test ESP-01 AT Modem
+delay 300
+expect-serial "\r\n"
+expect-serial "ready\r\n"
+
+serial-input "AT\r\n"
+delay 100
+expect-serial "AT\r\n"
+expect-serial "\r\n"
+expect-serial "OK\r\n"
+
+serial-input "AT+CIFSR\r\n"
+delay 100
+expect-serial "AT+CIFSR\r\n"
+expect-serial "+CIFSR:STAIP,\"0.0.0.0\"\r\n"
+expect-serial "+CIFSR:STAMAC,\"00:00:00:00:00:00\"\r\n"
