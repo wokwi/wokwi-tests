@@ -1,5 +1,5 @@
 wokwi-test USB Serial
-delay 50
+delay 10
 serial-input "Franzininho WiFi\n"
-delay 60
+delay 120
 expect-serial "Hello, Franzininho WiFi!\r\n"
