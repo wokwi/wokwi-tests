@@ -1,5 +1,5 @@
 wokwi-test Hello World
 delay 200
 expect-serial "Hello, MicroPython!\r\n"
-expect-serial "MicroPython v1.18 on 2022-01-17; ESP32 module with ESP32\r\n"
+expect-serial "MicroPython v1.19.1 on 2022-06-18; ESP32 module with ESP32\r\n"
 expect-serial "Type \"help()\" for more information.\r\n"
