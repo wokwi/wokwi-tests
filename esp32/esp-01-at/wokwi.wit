@@ -13,4 +13,4 @@ serial-input "AT+CIFSR\r\n"
 delay 100
 expect-serial "AT+CIFSR\r\n"
 expect-serial "+CIFSR:STAIP,\"0.0.0.0\"\r\n"
-expect-serial "+CIFSR:STAMAC,\"00:00:00:00:00:00\"\r\n"
+expect-serial "+CIFSR:STAMAC,\"24:0a:c4:00:01:10\"\r\n"
